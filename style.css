@@ -36,3 +36,49 @@
 .cart {
 	margin: 0 140px 0 5px;
 }
+
+.main-block {
+	height: 817px;
+	background: linear-gradient(
+		to bottom,
+		#C9ADC6 0%,
+		#C9ADC6 50%,
+		#D6BBD3 50%,
+		#D6BBD3 100%
+	);
+}
+
+.main-pic {
+	position: absolute;
+	margin: 72px 411px 70px 178px;
+}
+
+.mini-main-block {
+	width: 425px;
+	height: 450px;
+	background-color: #B08EAD;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-sizing: border-box;
+	padding-left: 40px;
+	position: absolute;
+	margin: 182px 113px 185px 902px;
+}
+
+.new {
+	font-family: 'Roboto';
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 1.5px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.main-title {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 45px;
+	line-height: 55px;
+	color: white;
+	margin-bottom: 22px;
+}
