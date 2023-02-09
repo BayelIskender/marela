@@ -139,6 +139,7 @@
 	width: 368px;
 	height: 427px;
 	background-color: #CEB3CB;
+	margin-bottom: 30px;
 }
 
 .about {
@@ -156,4 +157,54 @@
 	line-height: 30px;
 	color: white;
 	margin-left: 23px;
+}
+
+.begin, .product {
+	width: 1215px;
+	height: 416px;
+	margin: auto;
+	margin-top: 40px;
+	display: flex;
+}
+
+.carrer {
+	width: 1215px;
+	height: 506px;
+	margin: auto;
+	margin-top: 40px;
+	display: flex;
+	box-sizing: border-box;
+	padding-left: 31px;
+}
+
+.info-text {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 88px 66px 98px 60px;
+	gap: 10px;
+}
+
+.title {
+	font-family: 'Roboto';
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 1.5px;
+	color: #B99BB6;
+	text-transform: uppercase;
+}
+
+.desc {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 24px;
+	line-height: 30px;
+	color: #5F4D5D;
+}
+
+.line {
+	width: 1215px;
+	height: 1px;
+	background-color: #D7B7D4;
+	margin: auto;
+	margin-top: 40px;
 }
